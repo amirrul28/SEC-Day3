@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #e5e5e5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#base {
+  width: 596px;
+  height: 842px;
+  background-color: #110f57;
+  overflow: hidden;
+  position: relative;
+}
+.wrapper {
+  width: 85%;
+  height: 51%;
+  background-color: none;
+  margin: 40px auto;
+  position: relative;
+}
+.deco {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  right: 0;
+  transform: translate(0, -35%);
+  display: flex;
+  justify-content: end;
+  gap: 24px;
+}
+
+.line1 {
+  border: 12px solid #00fb82;
+  border-radius: 20px;
+}
+.line2 {
+  border: 12px solid #fff500;
+  border-radius: 20px;
+}
+.pos1 {
+  height: 100px;
+}
+.pos2 {
+  height: 140px;
+}
+.pos3 {
+  height: 180px;
+}
+.pos4 {
+  height: 160px;
+}
+.title {
+  color: #00fb82;
+  width: 50%;
+  font-size: 70px;
+  font-weight: 600;
+  line-height: 70px;
+  margin-top: 70px;
+}
+.text {
+  color: #e2e2e2;
+  width: 70%;
+  opacity: 70%;
+  margin-top: 40px;
+}
+.socmed {
+  width: 33%;
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+}
+.socmed > div {
+  background-color: white;
+  width: 35px;
+  height: 35px;
+  border: 5px solid white;
+  border-radius: 50px;
+}
+.dot-r {
+  position: absolute;
+  bottom: 11%;
+  left: 0px;
+  transform: rotate(180deg);
+  opacity: 80%;
+}
+.dot-l {
+  position: absolute;
+  bottom: 38%;
+  right: 0px;
+  opacity: 80%;
+}

@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #e5e5e5;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: "Bebas Neue";
+}
+#base {
+  background-color: #1e1f2f;
+  width: 1611px;
+  height: 936px;
+  padding: 5%;
+  display: flex;
+  overflow: hidden;
+}
+#base > #b-left {
+  background-color: none;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: 10;
+}
+#base > #b-left > .top {
+  background-color: none;
+  height: 120px;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
+#base > #b-left > .top > .logo {
+  background-color: none;
+  width: 92px;
+  height: 96px;
+}
+#base > #b-left > .top > .logo > .white {
+  background-color: white;
+  width: 31px;
+  height: 27px;
+}
+#base > #b-left > .top > .logo > .red {
+  background-color: #e82c4f;
+  color: white;
+  width: 60px;
+  height: 68px;
+  font-size: 50px;
+  padding-left: 12px;
+  margin-left: 31px;
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-text-stroke: 2px black;
+  display: flex;
+  align-items: center;
+}
+#base > #b-left > .top > .text1 {
+  color: white;
+  font-size: 80px;
+  margin-left: 20px;
+}
+#base > #b-left > .mid {
+  background-color: none;
+  color: white;
+  font-size: 150px;
+  text-align: left;
+}
+#base > #b-left > .bot {
+  width: 624px;
+  height: 64px;
+  display: flex;
+  justify-content: space-around;
+}
+#base > #b-left > .bot > .child {
+  color: white;
+  font-size: 60px;
+  letter-spacing: 1rch;
+  display: flex;
+  align-items: center;
+}
+#base > #b-left > .bot > .child > img {
+  margin-right: 10px;
+}
+#base > #b-right {
+  background-color: none;
+  color: white;
+  width: 50%;
+  height: 100%;
+  position: relative;
+}
+#base > #b-right > .box-a {
+  width: 558px;
+  height: 644px;
+  border: 60px solid #48596d;
+}
+#base > #b-right > .upper {
+  margin-top: -48.7%;
+  margin-left: 55.5%;
+  opacity: 50%;
+  position: absolute;
+}
+#base > #b-right > .lower {
+  margin-top: 36.8%;
+  margin-left: -17.2%;
+  opacity: 20%;
+  z-index: 1;
+}
+#base > #b-right > .box-b {
+  color: white;
+  width: 504px;
+  height: 618px;
+  border: 60px solid white;
+  position: absolute;
+  top: 50%;
+  right: 0%;
+  transform: translate(0, -50%);
+}
+.box-c {
+  width: 240px;
+  height: 240px;
+  border: 40px solid #e82c4f;
+  margin: 90px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box-d {
+  width: 80px;
+  height: 80px;
+  border: 20px solid white;
+}
+.box-e {
+  background-color: none;
+  width: 240px;
+  margin: -60px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.box-e > .box-d {
+  border-color: #3256a1;
+}
+.cir-a {
+  border: 20px solid white;
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+}
